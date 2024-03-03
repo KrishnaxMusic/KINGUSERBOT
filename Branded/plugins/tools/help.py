@@ -57,12 +57,12 @@ async def help_button(client, query):
     back_match = re.match(r"help_back", query.data)
     top_text = f"""
 **🥀 Welcome To Help Menu Of
-Daxx Userbot » {__version__} ✨...
+Brabded Userbot » {__version__} ✨...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX Server](https://t.me/DAXXSUPPORT).**
+🌷Powered By : [DAXX Server](https://t.me/BRANDED_WORLD).**
 """
     
     if plug_match:
