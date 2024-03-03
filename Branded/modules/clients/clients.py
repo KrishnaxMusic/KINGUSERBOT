@@ -52,21 +52,21 @@ async_dirs()
     
 
 app = Client(
-    name = "DaxxTeam",
+    name = "Branded",
     api_id = API_ID,
     api_hash = API_HASH,
     session_string = STRING_SESSION,
 )
 
 ass = Client(
-    name = "DAXXPlayer",
+    name = "BRANDEDPlayer",
     api_id = API_ID,
     api_hash = API_HASH,
     session_string = SESSION_STRING,
 )
 
 bot = Client(
-    name = "DAXXSUPPORT",
+    name = "BRANDED_WORLD",
     api_id = API_ID,
     api_hash = API_HASH,
     bot_token = BOT_TOKEN,
@@ -85,7 +85,7 @@ def mongodbase():
         LOGGER.info("Connecting To Your Database ...")
         async_client = AsyncIOMotorClient
         mongobase = async_client(MONGO_DB_URL)
-        mongodb = mongobase.DaxxTeam
+        mongodb = mongobase.Branded
         LOGGER.info("Conected To Your Database.")
     except:
         LOGGER.error("Failed To Connect, Please Change Your Mongo Database !")
@@ -113,8 +113,8 @@ async def run_async_clients():
     except:
         pass
     try:
-        await app.join_chat("DAXXSUPPORT")
-        await app.join_chat("DAXXDiscus")
+        await app.join_chat("BRANDED_WORLD")
+        await app.join_chat("BRANDED_PAID_CC")
     except:
         pass
     if SESSION_STRING:
@@ -126,8 +126,8 @@ async def run_async_clients():
         except:
             pass
         try:
-            await app.join_chat("DAXXSUPPORT")
-            await app.join_chat("DAXXDiscus")
+            await app.join_chat("BRANDED_WORLD")
+            await app.join_chat("BRANDED_PAID_CC")
         except:
             pass
     LOGGER.info("Starting Helper Robot ...")
