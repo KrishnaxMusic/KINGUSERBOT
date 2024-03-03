@@ -18,7 +18,7 @@ async def help_menu_logo(answer):
             photo_url=f"{thumb_image}",
             title="🥀 Help Menu ✨",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of DAXXUSERBOT ✨...",
+            description=f"🥀 Open Help Menu Of BRANDED_WORLD ✨...",
             caption=f"""
 **🥀 Welcome To Help Menu Of
 Daxx Userbot » {__version__} ✨...
@@ -26,7 +26,7 @@ Daxx Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX Server](https://t.me/DAXXSUPPORT).**
+🌷Powered By : [BRANDED Server](https://t.me/BRANDED_WORLD).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -47,7 +47,7 @@ Daxx Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX Server](https://t.me/DAXXSUPPORT).**""",
+🌷Powered By : [BRANDED Server](https://t.me/BRANDED_WORLD).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
