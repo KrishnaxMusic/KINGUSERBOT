@@ -14,7 +14,7 @@ async def main():
     await run_async_clients()
     for all_plugin in ALL_PLUGINS:
         imported_plugin = importlib.import_module(
-            "DaxxTeam.plugins" + all_plugin
+            "Branded.plugins" + all_plugin
         )
         if (hasattr
             (
@@ -34,7 +34,7 @@ async def main():
     await run_async_inline()
     logs.info("Successfully Deployed !!")
     await run_async_calls()
-    logs.info("Do Visit - @DAXXSUPPORT")
+    logs.info("Do Visit - @BRANDED_WORLD")
     await idle()
 
 
