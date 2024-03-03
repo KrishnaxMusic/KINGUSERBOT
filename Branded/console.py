@@ -58,7 +58,7 @@ USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://graph.org/file/1217cb1e402b
 
 # Don't Edit This Codes From This Line
 
-LOGGER = logging.getLogger("Daxx")
+LOGGER = logging.getLogger("King")
 runtime = time.time()
 
 FLOODXD = {}
