@@ -52,13 +52,13 @@ PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 5))
 
 
 # USERBOT DEFAULT IMAGE
-USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://graph.org/file/1217cb1e402b99fa47fdf.jpg")
+USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://te.legra.ph/file/11cfa74175b590014bd16.jpg")
 
 
 
 # Don't Edit This Codes From This Line
 
-LOGGER = logging.getLogger("Genius")
+LOGGER = logging.getLogger("Branded")
 runtime = time.time()
 
 FLOODXD = {}
