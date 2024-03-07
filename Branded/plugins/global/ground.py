@@ -1,4 +1,4 @@
-# Powered By // @WCGKING //
+# Powered By // @BRANDED_PAID_CC //
 
 __NAME__ = "Global"
 __MENU__ = """
