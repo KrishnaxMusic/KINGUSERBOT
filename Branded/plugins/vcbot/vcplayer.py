@@ -1,4 +1,4 @@
-# Powered By // @AdityaHalder //
+# Powered By // @WCGKING //
 
 __NAME__ = "VcPlayer"
 __MENU__ = """
